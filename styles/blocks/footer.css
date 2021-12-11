@@ -1,0 +1,64 @@
+.footer {
+  padding: 38px 18px 22px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .footer {
+    flex-direction: row;
+    align-items: center;
+    padding: 36px 18px;
+    justify-content: space-around;
+  }
+}
+
+.social_list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 40px;
+  padding: 0 20px
+}
+
+.social_item {
+  background-color: #81b3d2;
+  width: 48px;
+  height: 48px;
+}
+
+.social_item:not(:last-child) {
+  margin-right: 6px;
+}
+
+.social_link {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.social_icon {
+  fill: #ffffff;
+}
+
+.school {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.school_text{
+  font-size: 14px;
+  margin: 0 10px 0 0;
+}
+
+.school_link {
+  height: 35px;
+}
+
+.footer_text {
+  display: block;
+  margin: 0 0 35px
+}

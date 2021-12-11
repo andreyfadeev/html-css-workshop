@@ -1,0 +1,155 @@
+.reason_list {
+  background-color: #eeeeee;
+}
+
+/* .reason_title {
+  font-size: 18px;
+  padding-top: 24px;
+  margin: 0;
+} */
+
+.reason_text {
+  font-size: 14px;
+  line-height: 21px;
+  margin: 0;
+}
+
+.reason_item_main .reason_content {
+  padding: 36px 18px;
+}
+
+.reason_item_main {
+  position: relative;
+  color: #ffffff;
+  background-color: #81b3d2;
+}
+
+.reason_item_secondary .reason_content {
+  padding: 26px 24px;
+}
+
+.s_reason_item:not(:last-child) {
+  margin-bottom: 21px;
+}
+
+.reason_item_secondary .reason_text {
+  color: #333333;
+}
+
+.reason_title {
+  font-size: 18px;
+  margin: 0 0 14px;
+}
+
+.reason_text {
+  font-size: 14px;
+  line-height: 21px;
+  margin: 0;
+}
+
+.reason_text:not(:last-child) {
+  margin-bottom: 14px;
+}
+
+.reason_item_secondary {
+  position: relative;
+}
+
+.reason_item_secondary:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  height: 1px;
+  width: calc(100% - 40px);
+  transform: translateX(-50%);
+  background-color: #d6d6d6;
+  mix-blend-mode: normal;
+  z-index: 1;
+}
+
+.s_reason_list {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 26px 18px 35px;
+  flex-flow: column;
+  display: flex;
+  text-align: left;
+}
+
+.s_reason_item {
+  display: flex;
+}
+
+.s_reason_title {
+  margin: 25px 0 25px;
+}
+
+.s_reason_text {
+  font-size: 14px;
+  line-height: 21px;
+  color: #333333;
+}
+
+.section_reason {
+  text-align: left;
+  padding: 10px 0 0;
+}
+
+.s_reason_icon_div {
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.s_reason_icon {
+  fill: #81b3d2;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.reason_img_wrapper {
+  display: flex;
+  background-color: #f4f3ef;
+  min-height: 260px;
+}
+
+@media (min-width: 768px) {
+  .reason_list {
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .s_reason_list {
+    flex-flow: row;
+  }
+
+  .reason_item_secondary {
+    display: flex;
+  }
+  .reason_item_secondary:not(:last-child):after {
+    display: none;
+  }
+
+  .s_reason_item {
+    text-align: center;
+    align-items: center;
+    flex-flow: column;
+  }
+
+  .s_reason_item:not(:last-child) {
+    margin-bottom: 0;
+  }
+  .s_reason_title {
+    
+  }
+  
+  .s_reason_text{
+    
+  }
+}
+
+

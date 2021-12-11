@@ -1,0 +1,28 @@
+/* Radiobutton */
+
+.radio_button_span {
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  border: 15px solid #f2f2f2;
+  border-radius: 50%;
+  margin: 0 24px 0 0;
+  background-color: #f2f2f2;
+}
+
+/* Checked */
+
+.radio_button:checked + .radio_button_span {
+  background-color: #333333;
+}
+
+/* Focused */
+
+.radio_button:focus + .radio_button_span {
+  outline: 2px #000 auto;
+}
+
+.radio_button:focus:checked + .radio_button_span {
+  background-color: #333333;
+  outline: 2px #000 auto;
+}

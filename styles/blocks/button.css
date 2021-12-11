@@ -1,0 +1,12 @@
+.button {
+  color: #ffffff;
+  background-color: #81b3d2;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 14px 42px 10px;
+  font-weight: bold;
+  font-size: 21px;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: flex-end;
+}

@@ -1,0 +1,21 @@
+/*global styles*/
+@import "/styles/font.css";
+@import "/styles/body.css";
+@import "/styles/reset.css";
+@import "/styles/blocks/button.css";
+
+/*block style*/
+@import "/styles/blocks/header.css";
+@import "/styles/blocks/main.css";
+@import "/styles/blocks/footer.css";
+@import "/styles/blocks/social.css";
+@import "/styles/blocks/nav.css";
+@import "/styles/blocks/burger-menu.css";
+@import "/styles/blocks/map.css";
+@import "/styles/blocks/reason.css";
+@import "/styles/blocks/hotel.css";
+@import "/styles/blocks/form.css";
+@import "/styles/blocks/radiobutton.css";
+@import "/styles/blocks/checkbox.css";
+@import "/styles/blocks/logo.css";
+@import "/styles/blocks/welcome-banner.css";

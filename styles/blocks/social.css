@@ -1,0 +1,13 @@
+.socials {
+  display: flex;
+}
+
+.socials_item {
+  width: 48px;
+  height: 48px;
+  background-color: #81b3d2;
+}
+
+.socials_item:not(:last-child) {
+  margin-right: 6px;
+}

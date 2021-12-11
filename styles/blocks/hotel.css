@@ -1,0 +1,25 @@
+.hotel {
+  font-size: 21px;
+    background-color: #ffffff;
+    padding: 33px 25px 49px;
+    max-width: 458px;
+    margin: 0 auto;
+}
+
+.hotel_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 30px;
+}
+
+.hotel_text {
+  font-size: 14px;
+  line-height: 24px;
+  color: #333333;
+  margin: 0 0 27px;
+}
+
+.hotel_link {
+  height: 58px;
+}

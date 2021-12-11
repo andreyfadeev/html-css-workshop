@@ -1,0 +1,15 @@
+.body {
+font-family: "PT Sans", "Arial", sans-serif;
+text-align: center;
+text-transform: uppercase;
+
+margin: 0 auto;
+font-size: 14px;
+line-height: 26px;
+background-color: #fff;
+
+color: #333333;
+
+min-width: 320px;
+max-width: 1200px;
+}

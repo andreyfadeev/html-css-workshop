@@ -1,0 +1,153 @@
+.form {
+  padding: 18px 0 0;
+  --background-color: rgb(240, 231, 231);
+}
+
+.form__fieldset {
+  position: relative;
+  
+
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  padding-block-start: 0;
+  padding-inline-start: 0;
+  padding-inline-end: 0;
+  padding-block-end: 0;
+  min-inline-size: unset;
+  border-width: 0;
+
+  margin: 0 0 46px;
+  padding: 0 20px;
+}
+
+.form__fieldset-title:before {
+  content: "";
+  position: absolute;
+  left: 50%;
+
+  height: 1px;
+  width: 100%;
+  background-color: #e5e5e5;
+  transform: translateX(-50%);
+  margin: -20px auto;
+}
+
+.form__fieldset-title {
+  margin: 0 0 15px;
+  padding: 20px 0px 0px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.form__fieldset_card_item:not(:last-child) {
+  margin: 0 0 20px;
+}
+
+.form__fieldset_input {
+  padding: 16px 22px;
+  width: 100%;
+  height: 58px;
+  background-color: #f2f2f2;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  border: 0;
+  padding: 16px 22px;
+}
+
+.form__fieldset_span {
+  margin: 0 13px 0 0;
+  font-size: 14px;
+  line-height: 26px;
+}
+
+.form__fieldset_span_contact {
+  padding: 0 22px;
+  font-size: 14px;
+  line-height: 26px;
+}
+
+.form__fieldset_card_label,
+.form__fieldset_radio,
+.form__fieldset_checkbox {
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.form__fieldset_contact_label {
+  flex-flow: column;
+  align-items: baseline;
+  flex-direction: column;
+}
+
+.form__fieldset_contact_item:not(:last-child) {
+  margin: 0 0 14px;
+}
+
+.form__fieldset_place_item:not(:last-child) {
+  margin: 0 0 20px;
+}
+
+.form__fieldset_feel_item:not(:last-child) {
+  margin: 0 0 20px;
+}
+
+.form__input-wrapper {
+  position: relative;
+}
+
+.form__input-icon-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 58px;
+  width: 58px;
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  background-color: #e6e6e6;
+}
+
+.form__fieldset_place_text,
+.form__fieldset_feel_text {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: none;
+}
+
+.form__textarea {
+  width: 100%;
+  min-height: 160px;
+  padding: 13px 21px 29px;
+
+  font-weight: bold;
+  font-family: inherit;
+  border: 0;
+  font-size: 18px;
+  background-color: #f2f2f2;
+  resize: vertical;
+}
+
+.main_info_form {
+  --background-color: rgb(255, 122, 122);
+  padding: 0 20px 0 20px;
+}
+
+.form__fieldset_radio_input,
+.form__fieldset_checkbox_input {
+  position: absolute;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+input[type="email"]::placeholder,
+input[type="tel"]::placeholder,
+input[type="text"]::placeholder {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+

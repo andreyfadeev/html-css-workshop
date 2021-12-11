@@ -1,0 +1,39 @@
+.main_info_title {
+  font-size: 18px;
+  margin: 0 0 10px;
+  padding: 0 18px;
+}
+
+.main_info {
+  position: relative;
+  padding: 32px 0 0;
+}
+
+.main_info_description {
+  font-size: 14px;
+  padding: 0 18px;
+  margin: 0;
+}
+
+.main_banner_text.short {
+  top: 33.1%;
+  width: 71.6%;
+  height: 24.9%;
+  /* display: flex;
+  justify-content: center;
+  position: relative;
+  margin: 0 26px; */
+}
+
+.main_banner_text {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  fill: #fff;
+}
+
+@media (min-width: 768px){
+  .main_info_description{
+    padding: 0 0 41px; 
+  }
+}
